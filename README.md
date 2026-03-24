@@ -1,59 +1,242 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+# 🧠 MINDFULAI – AI POWERED MENTAL HEALTH SUPPORT CHATBOT USING SENTIMENT ANALYSIS
 
-## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
-
-## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
-
-## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
-
-## System Architecture
-<!--Embed the system architecture diagram as shown below-->
-
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+MindfulAI is an intelligent AI-powered mental health support chatbot designed to provide real-time emotional assistance using Sentiment Analysis, Natural Language Processing (NLP), and voice-based interaction. The system detects user emotions and generates empathetic counselling responses to support mental wellness.
 
 
-## Output
+## 📌 About
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+MindfulAI is a computer vision–independent, NLP-driven conversational AI system that provides accessible, 24/7 emotional support for users experiencing stress, anxiety, sadness, or other emotional challenges.
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+Mental health services are often limited due to:
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+* High therapy costs
+* Social stigma
+* Limited availability
+* Geographic barriers
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+This project addresses these challenges by using:
 
+* Real-time Sentiment Analysis
+* Emotion Detection Algorithms
+* Context-aware Response Generation
+* Voice-based Conversational Interface
 
-## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
-
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+MindfulAI automatically analyzes user input, detects emotional states, and responds with empathetic and supportive messages.
 
 
+## 🚀 Features
 
+* ✅ Real-time sentiment analysis
+* ✅ Multi-emotion detection (Anxiety, Sadness, Anger, Stress, Loneliness, Neutral)
+* ✅ Emotional intensity scoring (0.0 – 1.0 scale)
+* ✅ Crisis keyword detection system
+* ✅ Empathetic counselling response generation
+* ✅ Voice-first conversational interface
+* ✅ Text-to-Speech (TTS) and Speech-to-Text (STT)
+* ✅ Conversation history tracking
+* ✅ 24/7 availability
+* ✅ Privacy-focused design
+
+
+## 🛠️ Requirements
+
+### 🖥️ Operating System
+
+* Windows 10 / 11 (64-bit)
+* Ubuntu (64-bit recommended)
+
+
+### 🧑‍💻 Development Environment
+
+* Python 3.9+
+* Node.js 18+
+* VS Code / PyCharm
+
+### 🤖 Backend Framework
+
+* FastAPI
+* Uvicorn
+* Pydantic
+* httpx
+* python-dotenv
+
+
+### 🌐 Frontend Framework
+
+* React.js
+* Vite
+* React Router DOM
+* CSS3 (Glassmorphism UI)
+
+
+### 🧠 AI & NLP Technologies
+
+* Custom Sentiment Analysis Engine
+* Emotion Classification Module
+* Intensity Scoring Algorithm
+* Crisis Detection Module
+* Template-based Response Generator
+
+
+
+### 🔧 Additional Dependencies
+
+* NumPy
+* Matplotlib
+* WebSocket
+* SpeechRecognition
+* pyttsx3 (or external TTS API)
+* Git (Version Control)
+
+## 🏗️ System Architecture
+
+The system architecture consists of the following components:
+
+1. 🎤 Voice / Text Input
+2. 🔄 Text Preprocessing Module
+3. 🧠 Sentiment Analysis Engine
+4. 📊 Emotion Detection & Intensity Scoring
+5. 💬 Counselling Response Generator
+6. 🔊 Text-to-Speech Output
+7. 📂 Session Management & Logging
+8. 🖥️ Monitoring Dashboard
+
+
+
+### 🔄 Workflow
+
+```
+User Input (Voice/Text)
+        ↓
+Speech-to-Text Conversion
+        ↓
+Text Preprocessing
+        ↓
+Sentiment Analysis Engine
+        ↓
+Emotion Detection & Intensity Scoring
+        ↓
+Response Strategy Selection
+        ↓
+Empathetic Response Generation
+        ↓
+Text + Voice Output
+```
+
+
+## 📂 Project Structure
+
+```
+MindfulAI/
+│
+├── backend/
+│   ├── main.py
+│   ├── sentiment_analyzer.py
+│   ├── response_generator.py
+│   ├── session_manager.py
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── VoiceOrb.jsx
+│   │   │   ├── ChatInterface.jsx
+│   │   │   └── Sidebar.jsx
+│   │   └── App.jsx
+│   └── package.json
+│
+└── README.md
+```
+
+
+
+## ⚙️ Installation Guide
+
+### 🔹 Step 1: Clone Repository
+
+```bash
+git clone https://github.com/your-username/MindfulAI.git
+cd MindfulAI
+```
+
+
+### 🔹 Step 2: Backend Setup
+
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate    # Ubuntu
+venv\Scripts\activate       # Windows
+```
+
+Install dependencies:
+
+```bash
+pip install fastapi uvicorn httpx pydantic python-dotenv
+```
+
+Run backend:
+
+```bash
+uvicorn main:app --reload --port 8000
+```
+
+
+### 🔹 Step 3: Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Access at:
+
+```
+http://localhost:5173
+```
+
+
+
+## 📊 Output
+
+* 🎤 Voice-based interaction
+* 📊 Real-time emotion detection
+* 💬 Empathetic AI responses
+* 📂 Conversation transcript display
+* 🚨 Crisis alert detection
+
+
+## 📈 Results and Impact
+
+MindfulAI improves mental health accessibility by:
+
+* 🌍 Providing 24/7 emotional support
+* 💰 Reducing cost barriers
+* 🧘 Offering a judgment-free environment
+* ⚡ Delivering instant responses
+* 🧠 Detecting emotional distress in real time
+
+This project demonstrates the effectiveness of AI-driven therapeutic assistance and lays the foundation for:
+
+* AI-based mental wellness platforms
+* Intelligent emotional support systems
+* Digital therapeutic applications
+
+
+## 🔮 Future Enhancements
+
+* 🤖 BERT-based advanced sentiment classification
+* 🌐 Multi-language support
+* 📱 Mobile application deployment
+* 📊 Long-term mood tracking dashboard
+* 🧑‍⚕️ Professional therapist integration
+* 🧘 Guided meditation and breathing exercises
+* 🔍 Facial emotion recognition integration
+
+## 📚 References
+
+1. Devlin, J., et al., “BERT: Pre-training of Deep Bidirectional Transformers,” NAACL-HLT, 2019.
+2. Vaswani, A., et al., “Attention Is All You Need,” NeurIPS, 2017.
+3. Research papers on AI-based Mental Health Chatbots and Sentiment Analysis (2023–2025).
 
